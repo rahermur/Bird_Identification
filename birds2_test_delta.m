@@ -2,6 +2,7 @@ clc; clear; close all;
 verbose = 0; sonido = 0;
 allFiles = dir( './datos/test_set/test_set/');
 addpath './datos/test_set/test_set/'
+addpath './rastamat/'
 allFiles = allFiles(3:end);
 fc_2 = 0.5; 
 fc_1 = 0.03;

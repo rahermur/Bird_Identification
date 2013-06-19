@@ -2,8 +2,9 @@ clc; clear; close all;
 
 allFiles = dir( './datos/train_set/train_set/');
 addpath './datos/train_set/train_set/'
+addpath './rastamat'
 allFiles = allFiles(3:end);
-verbose = 1; sonido = 0;
+verbose = 0; sonido = 0;
 fc_2 = 0.5; 
 fc_1 = 0.02;
 bands = 16;

@@ -1,10 +1,8 @@
-% clc;clear;close all;
-% load ./processed_data/NN_train.mat
-% load ./processed_data/train_X.mat
-% load ./processed_data/test_X.mat
+clc;clear;close all;
 load ./processed_data/clip1.mat
 load ./processed_data/DataProcessed
-%% Train other Neural network
+load ./processed_data/TrainedNet.mat
+%% Training a Neural network
 % M = 20;
 % net = patternnet(M);
 % net.trainParam.epochs= 1000;
